@@ -1,0 +1,58 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexible-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.half-width-2{
+    width: 50%;
+    padding-left: 5%;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: #575757;
+}
+
+
+/* -----------------------hero left side------------------------ */
+
+.hero-left-side h1 span{
+    color: #FB934A;
+}
+
+.hero-left-side p{
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.hero-left-side .food-button{
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #fc934a, #fc8541, #fd7539, #fd6433, #fd5030);
+    box-shadow: 1px 4px 17px 0px rgba(251,147,74,0.75);
+    -webkit-box-shadow: 1px 4px 17px 0px rgba(251,147,74,0.75);
+    -moz-box-shadow: 1px 4px 17px 0px rgba(251,147,74,0.75);
+}
+
+/* -----------------------hero right side------------------------ */
+
+.hero-right-side img{
+    width: 90%;
+    margin-top: 40px;
+}
