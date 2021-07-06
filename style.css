@@ -140,6 +140,7 @@ header .right-side-nav .nav-link li a:hover{
     border-radius: 15px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
 }
 
 .cards .card-full-content{
@@ -149,6 +150,48 @@ header .right-side-nav .nav-link li a:hover{
 .cards .card-full-content img{
     width: 100%;
 }
+
+
+
+/* -----------------------offer card design-------------------- */
+
+.offer-card{
+    height: 290px;
+    width: 910px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 70px;
+}
+
+
+.offer-full-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.offer-full-content .offer-image img{
+    width: 60%;
+}
+
+.offer-full-content .offer-text{
+    width: 60%;
+}
+
+.offer-full-content .offer-text h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FE4C2F;
+}
+
+.offer-full-content .offer-text h2 span{
+    font-size: 15px;
+    color: #575757;
+}
+
 
 
 
