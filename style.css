@@ -256,12 +256,13 @@ header .right-side-nav .nav-link li a:hover{
 
 .content{
     text-align: center;
-    color: white;
+    color: #b9b7b7;
     padding: 10px 0;
 }
 
-.content small{
+.content p{
     font-size: 12px;
+    margin-bottom: 50px;
 }
 
 .footer{
