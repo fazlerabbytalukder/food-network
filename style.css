@@ -111,6 +111,47 @@ header .right-side-nav .nav-link li a:hover{
     margin-top: 40px;
 }
 
+
+/* ------------------card design--------------- */
+
+.card-heading{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.card-heading p{
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.card-design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 90px;
+}
+
+.cards{
+    height: 400px;
+    width: 280px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.cards .card-full-content{
+    padding: 15px;
+}
+
+.cards .card-full-content img{
+    width: 100%;
+}
+
+
+
 /* --------------------------subscriber design--------------- */
 
 .s-card{
@@ -138,15 +179,6 @@ header .right-side-nav .nav-link li a:hover{
 .s-card .s-content .sub p{
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* ------------------------------footer design--------------------------- */
